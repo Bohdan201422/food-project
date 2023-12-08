@@ -1,3 +1,84 @@
 body {
   background: var(--White, #fefefe);
+  font-family: "Roboto", sans-serif;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  background: var(--White, #fefefe);
+  box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.1);
+  padding-left: 16px;
+}
+
+.logo {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-container {
+  margin-left: auto;
+  display: flex;
+  align-items: baseline;
+}
+
+.nav {
+  display: flex;
+  gap: 28px;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--Black, #2c2c2c);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-link-span {
+  color: #bbf330;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.nav-button {
+  margin-right: 16px;
+  margin-left: 30px;
+  display: inline-flex;
+  padding: 6px 18px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background: var(--Button-green, #bbf330);
+  color: var(--Black, #2c2c2c);
+  text-align: right;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 19.5px */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.hero-container {
+  display: flex;
+}
+
+.food-title {
+  width: 502.417px;
+  color: var(--Black, #2c2c2c);
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
 }

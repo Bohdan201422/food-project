@@ -10,34 +10,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FoodStat</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
       <a class="logo" href=""
         ><img src="./images/Vector.svg" alt="logo" width="66" height="52"
       /></a>
-      <nav>
-        <ul class="nav">
-          <li><a class="nav-link" href="">Home</a></li>
-          <li><a class="nav-link" href="">About</a></li>
-          <li><a class="nav-link" href="">Service</a></li>
-          <li><a class="nav-link" href="">Menu</a></li>
-          <li><a class="nav-link" href="">Contact</a></li>
-        </ul>
-      </nav>
-      <button class="nav-button" type="button">Order Now</button>
+      <div class="nav-container">
+        <nav>
+          <ul class="nav">
+            <li>
+              <a class="nav-link" href=""
+                ><span class="nav-link-span">Home</span></a
+              >
+            </li>
+            <li><a class="nav-link" href="">About</a></li>
+            <li><a class="nav-link" href="">Service</a></li>
+            <li><a class="nav-link" href="">Menu</a></li>
+            <li><a class="nav-link" href="">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="nav-button" type="button">Order Now</button>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>Enjoy Your Favorite Food From Anywhere</h1>
-        <p>
-          With just a few clicks, you can have your favorite meals delivered
-          straight to your doorstep, no matter where you are. Order now and
-          enjoy a hassle-free and delicious meal from the comfort of your own
-          home.
-        </p>
-        <button type="button">Order Now</button>
-        <img src="./images/salat.png" alt="salat" width="528" height="528" />
+      <section class="hero">
+        <div class="hero-container">
+          <div class="hero-container-food">
+            <h1 class="food-title">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="food-paragraf">
+              With just a few clicks, you can have your favorite meals delivered
+              straight to your doorstep, no matter where you are. Order now and
+              enjoy a hassle-free and delicious meal from the comfort of your
+              own home.
+            </p>
+            <button type="button">Order Now</button>
+          </div>
+          <img src="./images/salat.png" alt="salat" width="528" height="528" />
+        </div>
       </section>
       <section>
         <img src="./images/aple.png" alt="" />
